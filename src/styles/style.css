@@ -1,0 +1,139 @@
+/* Geral */
+*{
+    /* Tela */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+
+
+    /* Texto */
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+/* Navegação */
+.nav-header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    padding: 0 64px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.header-nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.header-nav > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.header-nav > button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border: none;
+}
+.btn-nav{
+    padding: 8px 20px;
+    background-color: black;
+    /* Cor da fonte feita em linha */
+}
+
+/* Header */
+main{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 112px 64px;
+
+}
+main> h1{
+    font-weight: 700;
+    font-style: 56px;
+}
+main > p{
+    font-style: 18px;
+    font-weight: 400;
+}
+.btn-wrapper{
+    padding: 8px 20px;
+    display: flex;
+    gap: 16px;
+}
+.btn-wrapper > button{
+    padding: 8px 20px;
+    color: black;
+    border: 1px solid black;
+}
+.btn-secondary{
+    padding: 8px 20px;
+    background-color: black;
+    /* Cor da fonte em linha */
+
+}
+footer{
+        width: 100%;
+        padding: 80px;
+        align-items: center;
+        padding: 64px;
+}
+.footer-top{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px
+}
+.footer-top > nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    font-size: 14;
+}
+footer > .nav-links{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 80px;
+}
+
+.footer-top a{
+    font-size: 14;
+    gap: 32px;
+}
+
+/* Bottom */
+.footer-bottom{
+    padding-top: 24px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+.footer-bottom > p{
+    font-size: 14;
+}
+.footer-bottom > a{
+    text-decoration: underline;
+    font-size: 14;
+}
+
