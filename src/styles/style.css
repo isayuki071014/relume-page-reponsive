@@ -1,9 +1,8 @@
-body {
-    border: 2px solid black;
+body{
+    background-color: none;
 }
-
 /* Navegação */
-.nav-header > img{
+.nav-header > #menu{
     display: none;
 }
 .nav-header{
@@ -44,7 +43,6 @@ body {
 
 /* Header */
 main{
-    border: 2px solid red;
     width: 100%;
     height: 100vh;
     display: block;
@@ -81,7 +79,6 @@ main > p{
 
 }
 footer{
-        border: 2px solid green;
         width: 100%;
         padding: 80px 64px;
         align-items: center;
@@ -130,7 +127,7 @@ footer > .nav-links{
 }
 
 @media (max-width: 400px) {
-    .nav-header > img{
+    .nav-header > #menu{
         display: flex;
 
     }
