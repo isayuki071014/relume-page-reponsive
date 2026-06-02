@@ -120,9 +120,14 @@ footer > .nav-links{
     text-decoration: underline;
     font-size: 14;
 }
-@media (min-width: 401px) and (max-: 800px) {
-    .header-nav{
-        flex-direction: column;
-        gap: 30px;
+
+@media (max-width: 400px) { 
+    .nav-header{
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    nav > button{
+        align-items: self-start;
     }
 }
