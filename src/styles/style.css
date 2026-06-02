@@ -1,19 +1,4 @@
-/* Geral */
-*{
-    /* Tela */
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border: none;
-    background: none;
 
-
-    /* Texto */
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: black;
-}
 
 /* Navegação */
 .nav-header{
@@ -91,12 +76,11 @@ main > p{
 }
 footer{
         width: 100%;
-        padding: 80px;
+        padding: 80px 64px;
         align-items: center;
-        padding: 64px;
 }
 .footer-top{
-    margin-top: 64px;
+    padding: 0 64px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -122,7 +106,7 @@ footer > .nav-links{
 
 /* Bottom */
 .footer-bottom{
-    padding-top: 24px;
+    padding-top: 55px;
     gap: 24px;
     display: flex;
     align-items: center;

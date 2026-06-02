@@ -1,0 +1,16 @@
+/* Geral */
+*{
+    /* Tela */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+
+
+    /* Texto */
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+}
