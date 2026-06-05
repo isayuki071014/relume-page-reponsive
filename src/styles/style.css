@@ -141,7 +141,7 @@ footer > .nav-links{
     font-size: 14;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px){
     .nav-header > #menu{
         display: flex;
 
