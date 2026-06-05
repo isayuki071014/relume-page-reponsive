@@ -2,7 +2,7 @@ body{
     background-color: none;
 }
 /* Navegação */
-.nav-header > #menu{
+.nav-header #menu{
     display: none;
 }
 .nav-header{
@@ -13,8 +13,9 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+    background-color: #fff5d9;
 }
-.nav-header #menu{
+#menu{
     display: none;
 }
 .nav-header #logo-cat{
@@ -49,11 +50,14 @@ body{
 }
 
 /* Header */
-main{
+#sobre-nos{
     /* Background de Main */
     background-image: url(/src/assets/images/cats-birthday.svg);
     background-repeat: no-repeat;
     background-position: center;
+
+
+
 
 
     /* Medidas */
@@ -69,11 +73,11 @@ main{
     padding: 112px 64px;
 
 }
-main> h1{
+#sobre-nos > h1{
     font-weight: 700;
     font-style: 56px;
 }
-main > p{
+#sobre-nos > p{
     font-style: 18px;
     font-weight: 400;
 }
@@ -93,6 +97,75 @@ main > p{
     /* Cor da fonte em linha */
 
 }
+#meow-party{
+    gap: 30px;
+    padding: 50px;
+}
+#meow-party h1{
+    font-weight: 700;
+    font-style: 56px;
+    gap: 15px;
+}
+#meow-party > p{
+    font-style: 18px;
+    font-weight: 400;
+}
+/* Contato */
+
+section{
+    margin: 64px;
+    margin-bottom: 24px;
+    align-content: center;
+    font-style: 18px;
+    font-weight: 400;
+    flex-direction: column;
+}
+section > h5{
+    margin-bottom: 16px;
+    font-style: 16px;
+    font-weight: 700;
+}
+section > h2{
+    margin-bottom: 24px;
+    font-style: 56px;
+    font-weight: 700;
+}
+
+div > label{
+display: block;
+}
+
+div > input{
+    padding-bottom: 8px;
+    width: 560px;
+    height:48px ;
+    border: 1px solid black;
+}
+
+ div > textarea {
+    margin-bottom: 8px;
+    border: 1px solid black;
+    height: 180px;
+    width: 560px;
+  }
+.terms{
+    margin-left: 64px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 34px;
+    gap: 10px;
+
+}
+
+.terms >  p{
+    size: 14;
+}
+
+.btn-contact{
+    margin-left: 64px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
 footer{
         width: 100%;
         padding: 80px 64px;
@@ -115,7 +188,7 @@ footer{
 }
 footer > .nav-links{
     display: flex;
-    gap: 12px;
+    gap: 20px;
 
 }
 
@@ -141,12 +214,11 @@ footer > .nav-links{
     font-size: 14;
 }
 
-@media (min-width: 400px){
+@media (max-width: 400px){
     .nav-header > #menu{
         display: flex;
-
     }
-    .header-nav {
+    .header-nav{
         display: none;
     }
     .nav-ancoras{
